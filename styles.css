@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /*backdrop-filter: blur(2.5px);*/
+  text-align: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px; /* Adding padding around the entire body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff; /* Change text color */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.6); /* White box with opacity */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #ffd700; /* Change heading color */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: black; /* Change label color */
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+.text-box {
+  margin-top: 20px;
+  color: red; /* Change paragraph color */
+}
+/* Existing styles */
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  button {
+    padding: 15px 30px; /* Increase button size */
+    font-size: 16px; /* Adjust font size */
+  }
+}
+

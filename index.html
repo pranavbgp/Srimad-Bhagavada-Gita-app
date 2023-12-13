@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bhagavad Gita Verse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>श्रीमद भगवद्गीता</h1>
+    <h1>Srimad BhagavadGita</h1>
+    <label for="chapterInput">Chapter:</label>
+    <input type="number" id="chapterInput" min="1" value="1">
+    <label for="verseInput">Verse:</label>
+    <input type="number" id="verseInput" min="1" value="1">
+    <div class="text-box">
+      <p id="currentChapterVerse"></p>
+      <p id="verse"></p>
+      <p id="translation"></p>
+      <p id="translation2"></p>
+      <p id="translation3"></p>
+      <p id="remainingVerses"></p>
+      <p id="totalVerses"></p>
+      <button onclick="getVerse()">Get Verse</button>
+      <button onclick="getPreviousVerse()">Previous Verse</button>
+      <button onclick="getNextVerse()">Next Verse</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
